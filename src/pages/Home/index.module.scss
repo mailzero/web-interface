@@ -1,0 +1,507 @@
+.container {
+  width: 100%;
+  
+  .header {
+    position: relative;
+    width: 100%;
+    height: 16.24rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../../assets/images/app/app-bg@2x.png");
+    background-size: cover;
+    
+    background-size: cover;
+
+    .logo {
+      margin-left: auto;
+      margin-right: auto;
+      width: 2.02rem;
+      height: 0.72rem;
+    }
+  }
+}
+
+  
+  .inner {
+    margin: 0 auto;
+  }
+  
+  .toolTip {
+    margin-top: 0.475rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .getEarn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7rem;
+    height: 0.78rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 1.5rem;
+    font-size: 0.18rem;
+    white-space: nowrap;
+    letter-spacing: 0.01rem;
+    border: 0.01rem solid #FF4E00;
+    background: rgba(255, 78, 0, 0.10);
+
+    span {
+      margin-left: 0.02rem;
+      margin-right: 0.02rem;
+    }
+
+    img {
+      margin-left: 0.04rem;
+      margin-right: 0.04rem;
+      width: 0.2rem;
+      height: 0.2rem;
+    }
+  }
+  
+  .descContainer {
+    margin-top: 0.5rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+    .right {
+      margin-top: 0.18rem;
+      img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 6.08rem;
+        height: 4.8rem;
+      }
+    }
+  
+    .sayHello {
+      img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 6.35rem;
+      }
+      
+    }
+  }
+  
+  .desc {
+    margin-top: 0.6rem;
+    
+  
+    p {
+      width: 6.35rem;
+      margin-left: auto;
+      margin-right: auto;
+      color: #FFF;
+      font-size: 0.36rem;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+  }
+  
+  .slogan {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6.92rem;
+    height: 0.96rem;
+    margin-top: 3.46rem;
+    color: #FFF;
+    text-align: center;
+    //font-family: Kanit;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+
+    background-image: url("../../assets/images/app/paveTheWay.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+
+    p {
+      line-height: 1;
+      font-size: 0.84rem;
+    }
+  }
+  
+  .mintButton {
+    display: flex;
+    justify-content: center;
+    width: 6.9rem;
+    height: 1.44rem;
+    margin-top: 0.9rem;
+    cursor: pointer;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #000 0%, #524F4E 100%);
+    color: #FFF;
+    text-align: center;
+    //font-family: Kanit;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 1.5rem;
+    font-size: 0.44rem;
+    scale: 0.8;
+    
+    span {
+      margin-left: 0.1rem !important;
+      margin-right: 0.1rem !important;
+    }
+  }
+  
+  .list {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.8rem;
+    width: 6.9rem;
+    display: flex;
+    justify-content: space-between;
+  
+    a {
+      width: 1.08rem;
+      height: 1.08rem;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: contain;
+    }
+  
+    .telegram {
+      background-image: url("../../assets/images/telegram.png");
+    }
+  
+    .discord {
+      background-image: url("../../assets/images/discord.png");
+    }
+  
+    .twitter {
+      background-image: url("../../assets/images/twitter.png");
+    }
+  
+    .medium {
+      background-image: url("../../assets/images/medium.png");
+    }
+  }
+  
+  .partner {
+    position: relative;
+    padding-top: 1rem;
+    box-sizing: border-box;
+    background-color: #171717;
+
+    .footer {
+      text-align: center;
+      margin-top: 2rem;
+      padding-bottom: 1rem;
+      color: #FFF;
+      //font-size: 0.24px;
+      font-size: 12px;
+      opacity: 0.2;
+      font-family: Inter;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    a + a {
+      margin-top: 0.6rem;
+    }
+
+    .layerZero {
+      margin-top: 0.77rem;
+    }
+  
+    a {
+      width: 5.7rem;
+      height: 1.32rem;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+  
+    h2 {
+      margin-left: auto;
+      margin-right: auto;
+      width: 6.8rem;
+      height: 3.74rem;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-image: url("../../assets/images/app/app_img_buildon.png");
+    }
+  
+    .partnerInner {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .partnersList {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .layerZero {
+      background-image: url("../../assets/images/app/layerzero@2x.png");
+    }
+  
+    .zkSync {
+      background-image: url("../../assets/images/app/era@2x.png");
+    }
+  
+    .sei {
+      background-image: url("../../assets/images/app/sei@2x.png");
+  
+    }
+  
+    .linea {
+      background-image: url("../../assets/images/app/linea@2x.png");
+    }
+  
+    .scroll {
+      background-image: url("../../assets/images/app/scroll@2x.png");
+  
+    }
+  
+    .optimism {
+      background-image: url("../../assets/images/app/optimism@2x.png");
+  
+    }
+  
+    .arb {
+      background-image: url("../../assets/images/app/arbltrum@2x.png");
+  
+    }
+  
+    .gitcoin {
+      background-image: url("../../assets/images/app/gitcoin@2x.png");
+    }
+  }
+  
+  .modalContent {
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+    padding: 0 !important;
+    width: 6.4rem;
+    height: 9.9rem;
+  
+    position: absolute;
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+  
+    .successEnd, .login, .skipEnd {
+      border-radius: 21px;
+    }
+  
+    .closeButton {
+      position: absolute;
+      left: 50%;
+      bottom: -12%;
+      width: 36px;
+      height: 36px;
+      transform: translateX(-50%);
+      cursor: pointer;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-image: url("../../assets/images/app/app_icon_close@2x.png");
+    }
+  
+    .login {
+      padding-top: 3.79rem;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-image: url("../../assets/images/pc_modal_49$.png");
+    }
+  
+    .successEnd {
+      padding-top: 3.59rem;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-image: url("../../assets/images/app/49$_uclock@2x.png");
+
+      h3 {
+        margin-top: 0;
+      }
+    }
+  
+    .skipEnd {
+      padding-top: 3.59rem;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-image: url("../../assets/images/app/pc_modal_uclock@2x.png");
+
+      h3 {
+        margin-top: 0.1rem !important;
+      }
+
+      .unlocked {
+        margin-top: 0.87rem;
+      }
+    }
+  
+    h3 {
+      margin-top: 0.7rem;
+      color: #343434;
+      font-family: Inter;
+      font-size: 0.4rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-align: center;
+    }
+
+    .modalDesc {
+      margin-top: 0.6rem;
+    }
+
+    .loginDesc {
+      margin-top: 0.2rem;
+    }
+  
+    p {
+      color: #999695;
+      text-align: center;
+      font-family: Inter;
+      
+      font-size: 0.2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.787px;
+    }
+  }
+  
+  .modalButton {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.6rem;
+    height:0.9rem;
+    border-radius: 1.12rem;
+    font-size: 0.3rem;
+    background: linear-gradient(90deg, #000 0%, #4F4D4D 100%);
+    cursor: pointer;
+  
+    .buttonInner {
+      display: flex;
+      align-items: center;
+
+      img {
+        width:0.52rem;
+        height: 0.52rem;
+      }
+  
+      span {
+        margin-left: 0.21rem;
+        color: #FFFFFF;
+      }
+    }
+  }
+  
+  .unLockButton {
+    margin-top: 0.4rem;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.31rek;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 1.12rem;
+    background: linear-gradient(89deg, #FF4E00 0%, #FF9327 100%);
+  }
+  
+  .modalButtonSkip {
+    margin-top: 0.16rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.6rem;
+    height: 0.6rem;
+    border-radius:1.12rem;
+    border: 0.01rem solid #FF4E00;
+    background: #FFF;
+    cursor: pointer;
+    color: #FF4E00;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.24rem;
+  }
+  
+  .arrow {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    width: 0.2rem;
+    height: 0.44rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("../../assets/images/app/app_icon_arrow@2x.png");
+  }
+  
+  .fontFocus {
+    color: #FF4E00;
+  }
+  
+  .unlocked {
+    margin-top: 0.57rem;
+    margin-left: 0.4rem;
+    color: #343434;
+    font-family: Inter;
+    font-size: 0.22rem;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  
+  .loaderWrapper {
+    display: none;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.70);
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    z-index: 99999;
+    height: 100vh;
+    overflow: hidden;
+    pointer-events: none;
+  }
+  
+  .loader {
+    width: 5rem;
+    height: 5rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-image: url('../../assets/images/app/loading.gif');  
+  }

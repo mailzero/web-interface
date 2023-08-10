@@ -1,0 +1,59 @@
+
+
+.footerWrapper, .headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+
+    img {
+        width: 2.56rem;
+        height: 0.64rem;
+    }
+
+    .list {
+        display: flex;
+
+        a + a {
+            margin-left: 0.27rem;
+        }
+
+        a {
+            width: 0.66rem;
+            height: 0.66rem;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        .twitter {
+            background-image: url("../../assets/images/app_Twitter@2x.png");
+        }
+
+        .telegram {
+            background-image: url("../../assets/images/app_Telegram@2x.png");
+        }
+
+        .medium {
+            background-image: url("../../assets/images/app_Medium@2x.png");
+        }
+
+        .litepaper {
+            background-image: url("../../assets/images/app_Litepaper@2x.png");
+        }
+    }
+
+}
+
+.footerWrapper {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0.5rem 0.3rem 0.46rem !important;
+    width: 100% !important;
+    border-radius: 0 !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("../../assets/images/app_bottomnav_bg@2x.png");
+
+}
